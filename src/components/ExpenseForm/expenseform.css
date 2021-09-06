@@ -69,3 +69,14 @@
   .new-expense_actions {
     text-align: right;
   }
+
+  @media (min-width: 550px) {
+    .new-expense_control input {
+      font: inherit;
+      padding: 0.5rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      width: 15rem;
+      max-width: 100%;
+    }
+  }
