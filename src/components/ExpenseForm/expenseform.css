@@ -70,7 +70,7 @@
     text-align: right;
   }
 
-  @media (min-width: 550px) {
+  @media (max-width: 550px) {
     .new-expense_control input {
       font: inherit;
       padding: 0.5rem;
